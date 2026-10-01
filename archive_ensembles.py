@@ -38,7 +38,7 @@ MODELS = {
     "ecmwf_ifs025": ("ecmwf_ifs025_ensemble", 10),  # 51 membres, run toutes les 6 h, 25 km
     # Complément plus fin sur 5 jours ; pas d'humidité, d'ET0 ni de vent à 100 m (80 m à la place).
     "icon_eu":      ("dwd_icon_eu_eps", 5),         # 40 membres, run toutes les 6 h, ~13 km
-    # "ecmwf_aifs025": ("ecmwf_aifs025_ensemble", 10),  # 51 membres, pas de rafales
+    "ecmwf_aifs025": ("ecmwf_aifs025_ensemble", 10),  # 51 membres, pas de rafales
     # "gfs025":     ("ncep_gefs025", 10),           # 31 membres, vent à 10 m seulement
 }
 
